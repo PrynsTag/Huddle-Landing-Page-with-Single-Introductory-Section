@@ -212,7 +212,7 @@ body {
 }
 @media only screen and (max-width: 1680px) {
 
-    body { font-size: 17px; }
+    body { font-size: 15px; }
 
     .attribution { padding-top: 0; }
 }
@@ -220,7 +220,6 @@ body {
 @media only screen and (max-width: 1440px) {
 
     body {
-        font-size: 12px;
         padding: 35px 80px 50px 70px;
     }
 
@@ -234,9 +233,11 @@ body {
 
     .content-grid { padding: 150px 20px 70px; }
 
-    .content-heading { width: 67%; }
+    .content-heading { width: 90%; }
 
-    .content-info { width: 80%; }
+    .content-info { width: 100%; }
+
+    .social-links i { margin-top: 0; }
 
     .attribution {
         padding-top: 35px;
@@ -308,7 +309,6 @@ body {
 @media only screen and (max-width: 767px) {
 
     body {
-        font-size: 12px;
         padding: 40px 50px 40px;
         text-align: center;
     }
