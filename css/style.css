@@ -202,26 +202,19 @@ body {
 /* ----------------------------------------------------------- */
 /* ------------------------ Media Queries ---------------------*/
 /* ----------------------------------------------------------- */
+@media only screen and (max-width: 1685px) {
 
+    .content-heading { width: 80%; }
+
+    .content-info { width: 88%;}
+
+    .social-links i { margin-top: 40px; }
+}
 @media only screen and (max-width: 1680px) {
 
-    body {
-        font-size: 17px;
-    }
+    body { font-size: 17px; }
 
-    .content-heading {
-        width: 80%;
-    }
-
-    .content-info {
-        width: 83%;
-    }
-
-    .attribution {
-        padding-top: 0;
-    }
-
-
+    .attribution { padding-top: 0; }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -233,36 +226,22 @@ body {
 
     .nav-brand { width: 20%; }
 
-    .wrapper {
-        grid-gap: 25px;
-    }
+    .wrapper { grid-gap: 25px; }
 
-    .mockup-grid {
-        margin: 105px 0 60px;
-    }
+    .mockup-grid { margin: 105px 0 60px; }
 
-    .mockup-grid img{
-        width: auto;
-    }
+    .mockup-grid img{ width: auto; }
 
-    .content-grid {
-        padding: 150px 20px 70px;
-    }
+    .content-grid { padding: 150px 20px 70px; }
 
-    .content-heading {
-        width: 67%;
-    }
+    .content-heading { width: 67%; }
 
-    .content-info {
-        width: 80%;
-    }
+    .content-info { width: 80%; }
 
     .attribution {
         padding-top: 35px;
         position: absolute;
     }
-
-
 }
 
 @media only screen and (max-width: 1416px) {
@@ -273,7 +252,6 @@ body {
     }
 
     .nav-brand { width: 18%; }
-
 
     .content-heading {
         font-size: 250%;
@@ -288,37 +266,23 @@ body {
         padding: 60px 80px 50px 70px;
     }
 
-    .content-heading {
-        width: 100%;
-    }
+    .content-heading { width: 100%; }
 
-    .content-info {
-        width: 100%;
-    }
+    .content-info { width: 100%; }
 
 }
 
 @media only screen and (max-width: 1200px) {
 
-    body {
-        font-size: 13px;
-    }
+    body { font-size: 13px; }
 
-    .wrapper {
-        grid-template-columns: 1.3fr 1fr;
-    }
+    .wrapper { grid-template-columns: 1.3fr 1fr; }
 
-    .content-grid {
-        padding: 180px 20px 70px;
-    }
+    .content-grid { padding: 180px 20px 70px; }
 
-    .content-heading {
-        width: 100%;
-    }
+    .content-heading { width: 100%; }
 
-    .content-info {
-        width: 90%;
-    }
+    .content-info { width: 90%; }
 
     .mockup-grid img{
         width: 100%;
@@ -332,19 +296,14 @@ body {
         padding: 80px 80px 50px 70px;
     }
 
-    .content-heading {
-        width: 120%;
-    }
+    .content-heading { width: 120%; }
 
-    .content-info {
-        width: 90%;
-    }
+    .content-info { width: 90%; }
 
     .social-links i {
         font-size: 1rem;
         margin-top: 89px;
     }
-
 }
 @media only screen and (max-width: 767px) {
 
@@ -360,21 +319,13 @@ body {
         margin-left: -270px;
     }
 
-    .wrapper {
-        grid-template-columns: 1fr;
-    }
+    .wrapper { grid-template-columns: 1fr; }
 
-    .mockup-grid {
-        margin: 0;
-    }
+    .mockup-grid { margin: 0; }
 
-    .mockup-grid img{
-        width: 80%;
-    }
+    .mockup-grid img{ width: 80%; }
 
-    .content-grid {
-        padding: 10px;
-    }
+    .content-grid { padding: 10px; }
 
     .content-heading {
         width: 60%;
@@ -391,10 +342,7 @@ body {
         margin-top: 9px;
     }
 
-    .attribution {
-        padding-top: 0;
-    }
-
+    .attribution { padding-top: 0; }
 }
 @media only screen and (max-width: 480px) {
 
@@ -408,9 +356,7 @@ body {
         margin-top: 60px;
     }
 
-    .content-grid {
-        padding: 20px 10px 10px;
-    }
+    .content-grid { padding: 20px 10px 10px; }
 
     .content-heading {
         width: 110%;
@@ -425,9 +371,7 @@ body {
         color: #cfcfcf;
     }
 
-    .btn {
-        padding: 10px 80px;
-    }
+    .btn { padding: 10px 80px; }
 
     .social-links i {
         font-size: 1rem;
@@ -439,7 +383,6 @@ body {
         font-size: 0.6rem;
         padding: 0;
     }
-
 }
 
 @media only screen and (max-width: 375px) {
@@ -456,39 +399,27 @@ body {
         margin-left: -140px;
     }
 
-    .wrapper {
-        grid-template-columns: 1fr;
-    }
+    .wrapper { grid-template-columns: 1fr; }
 
-    .mockup-grid {
-        margin: 0 0 20px;
-    }
+    .mockup-grid { margin: 0 0 20px; }
 
     .mockup-grid img{
         width: 100%;
         margin-top: 20px;
     }
 
-    .content-grid {
-        padding: 10px 20px 40px;
-    }
+    .content-grid { padding: 10px 20px 40px; }
 
-    .content-heading {
-        font-size: 1.5rem;
-    }
+    .content-heading { font-size: 1.5rem; }
 
     .content-info {
         width: 120%;
         margin: 20px -8%;
     }
 
-    .btn {
-        font-size: 1.5em;
-    }
+    .btn { font-size: 1.5em; }
 
-    .social-icons {
-        text-align: center;
-    }
+    .social-icons { text-align: center; }
 
     .social-links i {
         font-size: 1rem;
